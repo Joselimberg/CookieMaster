@@ -1,8 +1,10 @@
-import React from 'react'
+import { Layout } from "../components/layouts"
 
 const HomePage = () => {
   return (
-    <h1>Cookie Master</h1>
+    <Layout>
+      <h1>Cookie Master</h1>
+    </Layout>
   )
 }
 
